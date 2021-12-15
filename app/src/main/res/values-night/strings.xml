@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="result_title">Resultados</string>
+    <string name="cpf">CPF</string>
+    <string name="person_name">Nome</string>
+    <string name="person_phone">Telefone</string>
+    <string name="person_email">E-mail</string>
+    <string name="person_password">Senha</string>
+    <string name="register_button">Cadastrar</string>
+</resources>

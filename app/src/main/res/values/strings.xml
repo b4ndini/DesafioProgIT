@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Teste Prog IT Tecnologia</string>
+    <string name="result_title">Resultados</string>
+    <string name="register_title">Cadastro</string>
+    <string name="person_data_title">Dados Pessoais</string>
+    <string name="cpf">CPF</string>
+    <string name="person_name">Nome</string>
+    <string name="person_phone">Telefone</string>
+    <string name="person_email">E-mail</string>
+    <string name="person_password">Senha</string>
+    <string name="person_repeat_password">Repetir Senha</string>
+    <string name="register_button">Cadastrar</string>
+</resources>
