@@ -9,6 +9,7 @@
     android:orientation="vertical">
 
     <TextView
+        android:id="@+id/tvPrizeNumber"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="5dp"
@@ -25,6 +26,7 @@
         tools:text="1º Prêmio" />
 
     <TextView
+        android:id="@+id/tvPrizeDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         tools:text="Valor Líquido de R$ 5MIL"
@@ -43,6 +45,7 @@
         android:background="?android:attr/listDivider" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvWinners"
         android:layout_marginTop="5dp"
         android:layout_marginBottom="5dp"
         android:layout_marginStart="10dp"
