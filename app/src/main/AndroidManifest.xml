@@ -13,10 +13,10 @@
         android:theme="@style/Theme.TesteProgITTecnologia"
         android:usesCleartextTraffic="true">
         <activity
-            android:name=".ResultActivity"
+            android:name=".view.ResultActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".view.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
