@@ -81,7 +81,7 @@ class MainActivity : AppCompatActivity() {
                     this,
                     "Cadastro realizado com sucesso, confira abaixo suas informações:\n\n" +
                             "CPF: $cpf\nNome: $name\nE-mail: $email\nTelefone: $phone",
-                    Toast.LENGTH_LONG
+                   Toast.LENGTH_LONG
                 ).show()
                 val intent = Intent(this, ResultActivity::class.java)
                 startActivity(intent)

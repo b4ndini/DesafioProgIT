@@ -2,6 +2,7 @@ package com.example.testeprogittecnologia.view.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.testeprogittecnologia.databinding.PrizeListItemBinding
@@ -39,6 +40,7 @@ class ResultAdapter  (
             if(prize.Contemplados.isNotEmpty()){
                 binding.rvWinners.apply {
                     layoutManager = LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false)
+                    addItemDecoration(DividerItemDecoration(context, DividerItemDecoration.VERTICAL))
                     adapter = WinnerAdapter(prize.Contemplados)
                 }
             }
