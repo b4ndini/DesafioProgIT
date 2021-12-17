@@ -2,7 +2,7 @@ package com.example.testeprogittecnologia.model
 
 data class Contemplado(
     val DezenasSorteadas: String,
-    val Endereco: String,
+    var Endereco: String,
     val IdContemplado: Int,
     val Imagem: Any,
     val Nome: String,

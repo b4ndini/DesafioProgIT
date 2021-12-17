@@ -45,14 +45,14 @@
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvPrizes"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="2dp"
         android:layout_marginEnd="2dp"
         android:layout_marginTop="1dp"
         android:backgroundTint="@color/green"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/Container"
         tools:itemCount="3"
-        tools:layout_editor_absoluteX="0dp"
         tools:listitem="@layout/prize_list_item" />
 
 
